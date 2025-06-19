@@ -1,4 +1,3 @@
-rootProject.name = "CMP-Bookpedia"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
@@ -28,4 +27,7 @@ dependencyResolutionManagement {
     }
 }
 
-include(":composeApp")
+
+rootProject.name = "GoIStats"
+include(":androidApp")
+include(":shared")

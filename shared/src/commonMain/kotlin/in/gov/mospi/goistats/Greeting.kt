@@ -1,4 +1,4 @@
-package in.gov.mospi.goistats
+package `in`.gov.mospi.goistats
 
 class Greeting {
     private val platform: Platform = getPlatform()

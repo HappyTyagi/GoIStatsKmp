@@ -1,4 +1,4 @@
-package in.gov.mospi.goistats.android
+package `in`.gov.mospi.goistats.android
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape

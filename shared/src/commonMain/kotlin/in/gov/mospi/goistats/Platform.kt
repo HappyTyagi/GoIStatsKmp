@@ -1,4 +1,4 @@
-package in.gov.mospi.goistats
+package `in`.gov.mospi.goistats
 
 interface Platform {
     val name: String
