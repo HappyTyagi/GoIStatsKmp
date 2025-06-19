@@ -1,19 +1,22 @@
+import UIKit
 import SwiftUI
-import shared
-
-@main
-struct iOSApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ComposeView()
-        }
-    }
-}
+import ComposeApp
 
 struct ComposeView: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> UIViewController {
-        Main_iosKt.MainViewController() // defined in shared code
+        MainViewControllerKt.MainViewController()
     }
 
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
 }
+
+struct ContentView: View {
+    var body: some View {
+        ComposeView()
+                .ignoresSafeArea(.keyboard)
+                .ignoresSafeArea(.container) // Compose has own keyboard handler
+    }
+}
+
+
+
