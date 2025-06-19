@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--For UAT-->
+   <!-- <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.24.89.9</domain>
+        <pin-set expiration="2026-06-03">
+            &lt;!&ndash;Pin for the SSL/TLS certificate of example.com&ndash;&gt;
+            <pin digest="SHA-256">qnV6HxypZbS+2bF1ZW/cQa5gMfJDKPRWkDpa/CeTs3I=</pin>
+            &lt;!&ndash;Backup Pin for the SSL/TLS certificate of example.com&ndash;&gt;
+            &lt;!&ndash;<pin digest="SHA-256">ReplaceWithYourPin</pin>&ndash;&gt;
+        </pin-set>
+        <trust-anchors>
+            <certificates src="@raw/ssl_cert_pinning" />
+            &lt;!&ndash;<certificates src="system" />
+            <certificates src="user" />&ndash;&gt;
+        </trust-anchors>
+    </domain-config>-->
+
+    <!--For Production-->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">goistatsapp.gov.gov.in</domain>
+        <pin-set expiration="2026-06-01">
+            <!--Pin for the SSL/TLS certificate of example.com-->
+            <pin digest="SHA-256">U6HZdM/wngZ6k6yeDIWZvw2htXWLrMeqUW2uk9Xn97k=</pin>
+            <!--Backup Pin for the SSL/TLS certificate of example.com-->
+            <!--<pin digest="SHA-256">ReplaceWithYourPin</pin>-->
+        </pin-set>
+        <trust-anchors>
+            <certificates src="@raw/ssl_production_goistats" />
+            <!--<certificates src="system" />
+            <certificates src="user" />-->
+        </trust-anchors>
+    </domain-config>
+
+    <!--For Local-->
+   <!-- <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.24.89.9</domain>
+    </domain-config>-->
+</network-security-config>
