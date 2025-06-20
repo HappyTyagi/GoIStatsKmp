@@ -26,7 +26,7 @@
             <!--<pin digest="SHA-256">ReplaceWithYourPin</pin>-->
         </pin-set>
         <trust-anchors>
-            <certificates src="@raw/ssl_production_goistats" />
+<!--            <certificates src="@raw/ssl_production_goistats" />-->
             <!--<certificates src="system" />
             <certificates src="user" />-->
         </trust-anchors>

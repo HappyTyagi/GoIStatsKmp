@@ -5,7 +5,8 @@ import shared
 struct iOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ComposeView()
+            ComposeView().ignoresSafeArea()
+
         }
     }
 }
