@@ -9,6 +9,7 @@ pluginManagement {
                 includeGroupAndSubgroups("com.google")
             }
         }
+        google()
         mavenCentral()
         gradlePluginPortal()
     }
@@ -23,7 +24,11 @@ dependencyResolutionManagement {
                 includeGroupAndSubgroups("com.google")
             }
         }
+        google()
         mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+        maven { url = uri("https://maven.google.com") }
+        maven { url = uri("https://nexus3-public.monetplus.cz/repository/ahead-talsec-free-rasp") }
     }
 }
 

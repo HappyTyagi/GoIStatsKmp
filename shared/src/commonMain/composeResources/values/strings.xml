@@ -1,0 +1,118 @@
+<resources>
+    <!--Default Values-->
+    <string name="app_name">GoIStats</string>
+    <string name="app_name_big">GoIStats Mobile App</string>
+    <string name="app_name_description">Empowering citizens with official \n data on-the-go</string>
+    <string name="session_expired_re_login">Session Expired. Please login Again.</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_txt">Search..</string>
+    <string name="ok">OK</string>
+    <string name="please_check_internet_connection">Please check your internet connection or try again later.</string>
+    <string name="are_u_sure_u_want_to_exit">Are you sure want to exit?</string>
+    <string name="no_txt">No</string>
+    <string name="yes_txt">Yes</string>
+    <string name="done_txt">Done</string>
+
+    <!--Dummy Values-->
+    <string name="demo_text">The Ministry of Statistics and Programme Implementation (MoSPI) came into existence as an independent Ministry on 15 October 1999 after the merger of the Department of Statistics and the Department of ...</string>
+    <string name="default_notification_channel_id">0</string>
+
+    <!--Splash Screen-->
+
+    <!--Dashboard Screen-->
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="home">Home</string>
+
+    <!--Home Fragment-->
+    <string name="marqueeTxt">Designed &amp; Developed by DIID, MoSPI</string>
+    <string name="home_key_trending_products_txt">Key Trends</string>
+    <string name="key_trending_txt">Product Details</string>
+    <string name="mospi_txt">MoSPI website</string>
+
+    <!--Bottom Navigation-->
+    <string name="title_home">Home</string>
+    <string name="title_product">Products</string>
+    <string name="title_infographics">Infographics</string>
+
+    <!--Side Menu-->
+    <string name="nav_designed">Designed &amp; Developed by DIID, MoSPI</string>
+    <string name="nav_copyright">Copyright © 2025 Ministry of Statistics &amp; Programme Implementation</string>
+    <string name="nav_follow_us_on_social_media_txt">Follow Us on Social Media!</string>
+
+    <!--User Notification Screen-->
+    <string name="title_activity_user_notification">Notification</string>
+
+    <!--MoSPI OverView Screen-->
+    <string name="title_activity_search_activity">Search</string>
+
+    <!--Report and Publications Screen-->
+    <string name="title_activity_report_publications">Reports and Publications</string>
+
+    <!--MoSPI OverView Screen-->
+    <string name="title_activity_mospi_overview">About Us</string>
+
+    <!--Whats New Screen-->
+    <string name="title_activity_whats_new">What\'s New</string>
+
+    <!--Feedback Screen-->
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="submit_feedback_btn_txt">Submit Feedback</string>
+    <string name="feedback_hint_your_name">Your Name</string>
+    <string name="feedback_hint_your_email">Your Email</string>
+    <string name="feedback_hint_your_phone_number">Your Phone Number</string>
+    <string name="feedback_hint_enter_subject">Enter Subject</string>
+    <string name="feedback_hint_your_feedback">Your Feedback</string>
+
+    <!--Graph Screen-->
+    <string name="title_activity_graph">Graph Details</string>
+
+    <!--InfoGraphics Details Screen-->
+    <string name="title_activity_info_graphics">Infographics Details</string>
+    <string name="key_takeaways_txt">Key Takeaways</string>
+    <string name="about_the_infographic_txt">About the Infographic</string>
+
+    <!--Reports Screen-->
+
+    <!--Search Screen-->
+    <string name="title_activity_search">Search Data</string>
+
+    <!--Contact Us Screen-->
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="txt_important_links">Important Links</string>
+
+    <!--About Us Screen-->
+    <string name="title_activity_about_us">About Us</string>
+    <string name="double_tap_on_the_screen_txt">Double tap on the screen where you want to zoom</string>
+
+    <!--Contacts List Screen-->
+    <string name="title_activity_contact">Contacts</string>
+
+    <!--No Internet Screen-->
+    <string name="title_activity_no_internet">No Internet</string>
+
+    <!--Calendar Screen-->
+    <string name="title_activity_calendar">Advance Release Calendar</string>
+
+    <!--Common Screen-->
+    <string name="title_activity_show_pdf">View PDF</string>
+    <string name="title_activity_show_image">View Image</string>
+    <string name="title_activity_show_web_view">View Web URL</string>
+
+    <!--Progress Dialog-->
+    <string name="getting_things_ready_for_you_txt">Getting things ready for you…</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="period_txt">Period</string>
+    <string name="value_Txt">Value</string>
+    <string name="unit_Txt">Unit</string>
+    <string name="graphBtnTxt">Visualization</string>
+    <string name="tableBtnTxt">Data</string>
+    <string name="infographicsBtnTxt">Infographics</string>
+
+    <!--Update Popup-->
+    <string name="data_for_development_txt">Data for Development</string>
+    <string name="update_a_new_version_txt">A new version of the app is available. Please update to continue.</string>
+    <string name="bottom_sheet_update_btn_txt">Update</string>
+    <string name="bottom_update_required_txt">Update Required</string>
+
+
+</resources>

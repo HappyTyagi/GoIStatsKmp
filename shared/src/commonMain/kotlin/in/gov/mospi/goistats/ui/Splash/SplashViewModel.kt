@@ -1,4 +1,4 @@
-package `in`.gov.mospi.goistats.ui
+package `in`.gov.mospi.goistats.ui.Splash
 
 import kotlinx.coroutines.delay
 

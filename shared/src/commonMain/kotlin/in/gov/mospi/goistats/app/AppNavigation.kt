@@ -4,8 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import `in`.gov.mospi.goistats.app.App
-import `in`.gov.mospi.goistats.ui.SplashScreen
+import `in`.gov.mospi.goistats.ui.Splash.SplashScreen
 
 @Composable
 fun AppNavigation() {
